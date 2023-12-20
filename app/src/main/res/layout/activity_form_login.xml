@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+<LinearLayout
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cadastro.Form_login"
+    android:orientation="vertical"
+    android:background="@drawable/mudanca">
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/formcaixas1"
+        android:hint="Email"
+        android:padding="15dp"
+        android:textColor="@color/preto"
+        android:textColorHint="@color/ciano" />
+
+    <EditText
+        android:id="@+id/txtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/formcaixas1"
+        android:padding="15dp"
+        android:hint="Senha"
+        android:textColor="@color/preto"
+        android:textColorHint="@color/ciano"
+        android:inputType="numberPassword"/>
+
+    <TextView
+        android:id="@+id/MsgErro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="@color/vermelho"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"/>
+
+
+    <Button
+        android:id="@+id/btEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/formcaixas1"
+        android:hint="Entrar"
+        android:padding="15dp"
+        android:textColorHint="@color/branco"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/btResourSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esqueceu sua senha?"
+            android:textColor="@color/vermelho"
+            android:layout_marginEnd="29dp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/txtCriarConta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Cadastre-se !"
+            android:textColor="@color/vermelho"
+            android:padding="4dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/Googlebt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center">
+
+    </com.google.android.gms.common.SignInButton>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cadastro.TelaCadastro">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/logobaixo">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fotouser"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@color/preto" />
+
+        <Button
+            android:id="@+id/btSelecFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecione uma Foto"
+            android:textSize="18sp"
+            android:textColor="@color/branco"
+            android:textStyle="bold"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="10dp">
+
+        </Button>
+
+
+        <EditText
+            android:id="@+id/telaCbtNome"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/formcaixas1"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:drawablePadding="6dp"
+            android:hint="     Nome "
+            android:textColor="@color/preto"
+            android:textColorHint="@color/ciano"
+            app:boxStrokeColor="@android:color/black"
+            app:errorEnabled="true" />
+
+
+        <EditText
+            android:id="@+id/TelaCbtEmail"
+            android:textColor="@color/preto"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/formcaixas1"
+            android:hint="     Email "
+            android:textColorHint="@color/ciano"
+            app:boxStrokeColor="@android:color/black"
+            app:errorEnabled="true"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:drawablePadding="6dp"
+            />
+
+
+
+        <EditText
+            android:id="@+id/telaCbtsenha"
+            android:textColor="@color/preto"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/formcaixas1"
+            android:hint="     Senha "
+            android:textColorHint="@color/ciano"
+            app:boxStrokeColor="@android:color/black"
+            app:errorEnabled="true"
+            android:drawableStart="@drawable/baseline_key_24"
+            android:inputType="numberPassword"
+            />
+
+        <TextView
+            android:id="@+id/MsgErro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:enabled="false"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/preto"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"/>
+
+
+        <Button
+            android:id="@+id/btRetgistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/formcaixas1"
+            android:enabled="false"
+            android:padding="12dp"
+            android:text="Cadastrar"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

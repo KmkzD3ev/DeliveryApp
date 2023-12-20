@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.DetalhesProdutos">
+
+
+
+    <ImageView
+        android:id="@+id/detlahesfoto"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@color/preto"
+        android:scaleType="centerCrop"/>
+
+
+
+    <TextView
+        android:id="@+id/dtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor= "@color/vermelho"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="20dp"/>
+
+
+
+    <TextView
+        android:id="@+id/dtDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@color/cinza_escuro"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+ <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Unitario"
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+ <TextView
+          android:id="@+id/dtPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ "
+        android:textSize="16sp"
+
+        android:layout_marginStart="20dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/AdcCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar ao Carrinho"
+        android:textSize="18sp"
+        android:background="@drawable/formcaixas1"
+        android:drawableRight="@drawable/icadd"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_margin="20dp"/>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>

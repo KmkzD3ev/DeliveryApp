@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vermelho">#FF0000</color>
+    <color name="verde">#035E03</color>
+    <color name="azulMercado">#48C6FF</color>
+    <color name="amarelo">#FFFF00</color>
+    <color name="ciano">#0022FF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="ultrawhite">#FDFDFD</color>
+    <color name="preto">#000000</color>
+    <color name="cinza_claro">#CCCCCC</color>
+    <color name="cinza_escuro">#666666</color>
+    <color name="laranja">#FFA500</color>
+    <color name="violeta">#800080</color>
+    <color name="rosa">#FFC0CB</color>
+    <color name="marrom">#A52A2A</color>
+    <color name="verde_limao">#32CD32</color>
+    <color name="gold">#EAD700</color>
+    <color name="roxo">#800080</color>
+    <color name="turquesa">#40E0D0</color>
+    <color name="cinza_prateado">#C0C0C0</color>
+    <color name="azul_claro">#ADD8E6</color>
+    <color name="azul_marinho">#06AEC8</color>
+
+</resources>

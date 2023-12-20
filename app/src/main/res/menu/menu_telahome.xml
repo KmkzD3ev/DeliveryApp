@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item
+        app:showAsAction="always"
+        android:title=""
+        android:icon="@drawable/baseline_menu_24">
+
+
+
+
+        <menu>
+            <item
+                android:id="@+id/perfil"
+                android:title="perfil"
+                android:icon="@drawable/ic_person_menu"
+                app:showAsAction="never"/>
+
+
+
+
+
+            <item
+                android:id="@+id/sairMenu"
+                android:title="Sair da Sessão"
+                android:icon="@drawable/ic_sair"
+                app:showAsAction="never"/>
+
+
+
+
+
+            <item
+                android:id="@+id/verpedidosMenu"
+                android:title="Pedidos a caminho"
+                android:icon="@drawable/baseline_request_page_24"
+                app:showAsAction="never"/>
+
+
+
+        </menu>
+
+
+
+
+    </item>
+
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/branco"
+    app:cardCornerRadius="15dp"
+    android:elevation="8dp"
+    android:layout_margin="10dp"
+
+    >
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/branco"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:textColor="@color/vermelho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dados do Cliente "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+
+        <TextView
+            android:id="@+id/text_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" rua matia numero 56 "
+            android:textColor="@color/preto"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/text_celular"
+            android:textColor="@color/preto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Celular "
+            android:textSize="16sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"/>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/titulo"
+                android:textColor="@color/vermelho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detalhes Pedido "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+
+            <TextView
+                android:id="@+id/text_listaProduto"
+                android:textColor="@color/preto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="arroz ,feijao, abobra,açucar,oleo,feijao,tomate ,sabao cjolotae"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+
+            <TextView
+                android:id="@+id/text_pontoReferencia"
+                android:textColor="@color/preto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="16sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+
+            <TextView
+                android:id="@+id/text_entregaStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="u6549844987464"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/preto"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+            <TextView
+                android:id="@+id/text_statuspagamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="u6549844987464"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/preto"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/MercadoLayout"
+    tools:context=".Payment.TelaPagamento">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preencha todos os campos antes de fazer o pagamento"
+        android:textSize="23sp"
+        android:textColor="@color/preto"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+    </TextView>
+
+<EditText
+    android:id="@+id/editPayBairro"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Bairro"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:padding="15dp"
+    android:maxLines="1"
+    android:inputType="text">
+
+</EditText>
+
+<EditText
+    android:id="@+id/editPayRuAeNum"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Rua e Numero "
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:padding="15dp"
+    android:maxLines="11"
+    android:inputType="text">
+
+</EditText>
+
+<EditText
+    android:id="@+id/editpayPontoReferen"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Ponto de Referencia"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:padding="15dp"
+    android:maxLines="1"
+    android:inputType="text">
+
+</EditText>
+
+<EditText
+    android:id="@+id/editpayNumberPhone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Celular"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:padding="15dp"
+    android:maxLines="11"
+    android:inputType="number">
+</EditText>
+
+    <TextView
+        android:id="@+id/precoLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/vermelho"
+        android:layout_marginStart="20dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/editPagFisico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pagar na Entrega"
+            android:padding="15dp"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/editPagFinal"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/editPagFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="25dp"
+            android:padding="15dp"
+            android:text=" Pagar Online"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="@+id/editPagFisico"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/editPagFisico"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

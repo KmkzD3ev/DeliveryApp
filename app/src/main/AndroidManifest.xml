@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_cara_zul"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_cara_zul"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.DeliveryApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.Atualizar_Entrega"
+            android:exported="false" />
+        <activity
+            android:name=".Payment.EntrEgasPedidos"
+            android:exported="false" />
+        <activity
+            android:name=".Payment.TelaPagamento"
+            android:exported="false" />
+        <activity
+            android:name=".Payment.Pedidos"
+            android:exported="false" />
+        <activity
+            android:name=".view.DetalhesProdutos"
+            android:label="Detalhes do Produto"
+            android:parentActivityName=".view.HomeTela">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.HomeTela" />
+        </activity>
+        <activity
+            android:name=".view.Perfil_Usuario"
+            android:exported="false" />
+        <activity
+            android:name=".view.HomeTela"
+            android:exported="false" />
+        <activity
+            android:name=".Cadastro.TelaCadastro"
+            android:exported="false" />
+        <activity
+            android:name=".Cadastro.Form_login"
+            android:exported="true" />
+        <activity
+            android:name=".Cadastro.Logo_Inicial"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

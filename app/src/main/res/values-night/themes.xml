@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DeliveryApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/amarelo</item> <!-- Defina a cor da ActionBar -->
+        <item name="android:textColor">@color/vermelho</item>
+        <item name="colorSecondary">@color/vermelho</item><!--Muda a cor dos atributos como botoes e escrit ns tela -->
+        <item name="android:statusBarColor">@color/preto</item>
+
+
+    </style>
+</resources>
