@@ -14,6 +14,9 @@ Somente colaborador ou proprietário terão acesso via login cadastrado
 Escrito em koltin com sdk 34 e Firebase 
 Inclusão com banco de dados em nuvem ,evitando perda de dados importantes
 
+Sistemas de login via Email e senha padrao
+ou conta Google
+
 Usamos RecyclerView para listagem dos itens e aproveitamento de tela 
 Com scroolView horizontal
 
