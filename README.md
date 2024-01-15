@@ -16,9 +16,10 @@ Inclusão com banco de dados em nuvem ,evitando perda de dados importantes
 
 Usamos RecyclerView para listagem dos itens e aproveitamento de tela 
 Com scroolView horizontal
+
 Duas classe modelos ,para Produtos e outra para servicos
-juntamante com um Adapter pra indica onde os itens irao ficar
-Usei putExtras para indicar a apassagem de dados entre as telas de forma dinamica
+juntamante com um Adapter pra indicar onde os itens irao ser posicionados
+Usei putExtras para indicar a passagem de dados entre as telas de forma dinamica
 Conta ainda com Api de pagamento Mercado-Pago,para comodidade dos usuarios ou ainda a opçao de pagar na entrega
 Toda lista e salva de modo On-line e Off-line
 Modo On-line foi ultilizado o firebase ,salvando e devolvendo a listagem quando nescessario
