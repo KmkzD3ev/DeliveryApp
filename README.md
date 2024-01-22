@@ -58,5 +58,4 @@ Recebemos tbm os a lista de pedidos de todos os clientes separando-os por Nome e
 ![WhatsApp Image 2024-01-15 at 19 31 15 (1)](https://github.com/KmkzD3ev/DeliveryApp/assets/141889210/ad3e6bee-aa58-481e-a613-3803b101a701)
 ![WhatsApp Image 2024-01-15 at 19 31 16 (7)](https://github.com/KmkzD3ev/DeliveryApp/assets/141889210/8e2e2cca-efa5-4419-917d-2b52cfc22074)
 ![WhatsApp Image 2024-01-15 at 19 31 16 (6)](https://github.com/KmkzD3ev/DeliveryApp/assets/141889210/d7f531eb-bff1-49f8-83c0-2a67ad128fb1)
-![WhatsApp Image 2024-01-15 at 19 31 15 (9)](https://github.com/KmkzD3ev/DeliveryApp/assets/141889210/ee87e504-2594-42e0-b419-ee581767bc08)
 
