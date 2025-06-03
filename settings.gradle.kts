@@ -3,7 +3,7 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
-        jcenter()
+        // Remova jcenter() se ainda estiver aqui
     }
 }
 dependencyResolutionManagement {
@@ -11,10 +11,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter()
+        // Remova jcenter() se ainda estiver aqui
+
+
+        maven {
+            url = uri("https://artifacts.mercadolibre.com/repository/android-releases")
+        }
     }
 }
 
 rootProject.name = "DeliveryApp"
 include(":app")
- 

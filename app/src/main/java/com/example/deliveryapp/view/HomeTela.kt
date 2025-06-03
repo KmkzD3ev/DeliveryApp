@@ -96,10 +96,6 @@ class HomeTela : AppCompatActivity(), RecyclerView.OnItemTouchListener {
 
 
 
-
-
-
-
         carrinhoproduto = CarrinhoProdutos(this)
         val fab = binding.fab
         fab.setOnClickListener {

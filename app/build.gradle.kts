@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.deliveryapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.deliveryapp"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -52,30 +52,44 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
     implementation("com.google.firebase:firebase-analytics-ktx")
     implementation("com.google.firebase:firebase-auth-ktx")
-        implementation ("de.hdodenhof:circleimageview:3.1.0")
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation("com.google.firebase:firebase-storage-ktx")
-    implementation("com.google.firebase:firebase-analytics-ktx")
-    implementation("com.google.firebase:firebase-auth-ktx")
+    // Você tinha firebase-analytics-ktx e firebase-auth-ktx duas vezes, removi a duplicação para clareza
+    // implementation("com.google.firebase:firebase-analytics-ktx")
+    // implementation("com.google.firebase:firebase-auth-ktx")
     implementation ("com.google.android.gms:play-services-location:21.0.1")
     implementation ("com.google.android.gms:play-services-auth:20.4.0")
     implementation ("com.google.firebase:firebase-firestore-ktx")
     implementation ("com.github.bumptech.glide:glide:4.16.0")
     implementation ("com.google.code.gson:gson:2.9.0")
-        implementation ("androidx.browser:browser:1.4.0")
+    // Você tinha androidx.browser:browser duas vezes com versões diferentes, mantive a mais nova
+    // implementation ("androidx.browser:browser:1.4.0")
 
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation ("com.squareup.retrofit2:converter-scalars:2.4.0")
 
-    implementation ("com.mercadopago.android.px:checkout:4.20.0")
-    implementation ("androidx.browser:browser:1.4.0")
+    implementation("com.mercadopago.android.px:checkout:4.53.2")
+    implementation("androidx.browser:browser:1.8.0")
 
 
-
-
-
-
-
+    // =========================================================================
+    // ADICIONE ESTE BLOCO AGORA PARA RESOLVER O CONFLITO DE LIFECYCLE
+    // =========================================================================
+    configurations.all {
+        resolutionStrategy {
+            // Força todas as dependências da família androidx.lifecycle a usarem a versão 2.7.0
+            force("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+            force("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+            force("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+            force("androidx.lifecycle:lifecycle-common-java8:2.7.0")
+            force("androidx.lifecycle:lifecycle-process:2.7.0")
+            force("androidx.lifecycle:lifecycle-service:2.7.0")
+            force("androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0")
+            force("androidx.lifecycle:lifecycle-reactivestreams-ktx:2.7.0")
+            // Se o erro persistir e mencionar outras do lifecycle, adicione-as aqui também.
+        }
+    }
+    // =========================================================================
 
 }
-

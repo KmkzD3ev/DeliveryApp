@@ -15,9 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Base.Theme.DeliveryApp"
         tools:targetApi="31">
-        <activity
-            android:name=".view.Atualizar_Entrega"
-            android:exported="false" />
+
         <activity
             android:name=".Payment.EntrEgasPedidos"
             android:exported="false" />
