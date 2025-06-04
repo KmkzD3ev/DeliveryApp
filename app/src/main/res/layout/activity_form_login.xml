@@ -11,7 +11,7 @@
     android:layout_height="match_parent"
     tools:context=".Cadastro.Form_login"
     android:orientation="vertical"
-    android:background="@drawable/mudanca">
+    android:background="@drawable/_001">
 
 
 

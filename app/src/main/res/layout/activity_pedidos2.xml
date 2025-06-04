@@ -22,7 +22,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewPedidos"
         app:layout_constraintVertical_bias="0.758"
         tools:layout_editor_absoluteX="0dp"
-        tools:listitem="@layout/seu_item_de_produto" />
+        />
 
     <TextView
         android:id="@+id/textViewPedidos"
@@ -43,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/formcaixas1"
+        android:background="@drawable/formcaixas2"
         android:text="Finalizar Pedido"
         android:textAllCaps="false"
         android:textSize="20sp"
@@ -57,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/formcaixas1"
+        android:background="@drawable/formcaixas2"
         android:text="excluir Itens"
         android:textAllCaps="false"
         android:textSize="20sp"

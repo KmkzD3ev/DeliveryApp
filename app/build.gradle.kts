@@ -73,9 +73,18 @@ dependencies {
     implementation("androidx.browser:browser:1.8.0")
 
 
-    // =========================================================================
-    // ADICIONE ESTE BLOCO AGORA PARA RESOLVER O CONFLITO DE LIFECYCLE
-    // =========================================================================
+    implementation ("com.google.firebase:firebase-firestore-ktx")
+
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+
     configurations.all {
         resolutionStrategy {
             // Força todas as dependências da família androidx.lifecycle a usarem a versão 2.7.0

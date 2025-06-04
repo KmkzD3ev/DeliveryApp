@@ -22,14 +22,7 @@
 
 
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/perfilFoto"
-        android:layout_width="200dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:src="@color/preto"
-         />
+
 
 
     <TextView
@@ -65,7 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="EDITAR PERFIL"
+        android:text="Sair"
         android:textStyle="bold"
         android:textSize="18sp"
         android:padding="15dp"
@@ -74,6 +67,7 @@
         >
 
     </Button>
+
 
 
 </LinearLayout>

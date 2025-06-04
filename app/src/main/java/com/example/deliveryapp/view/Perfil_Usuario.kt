@@ -2,11 +2,13 @@ package com.example.deliveryapp.view
 
 import android.content.ContentValues.TAG
 import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import com.bumptech.glide.Glide
+import com.example.deliveryapp.Cadastro.Form_login
 import com.example.deliveryapp.R
 import com.example.deliveryapp.databinding.ActivityPerfilUsuarioBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -26,14 +28,28 @@ class Perfil_Usuario : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        val perfilfoto = binding.perfilFoto
+       // val perfilfoto = binding.perfilFoto
         val nomeLogado = binding.NomeConta
         val emailLogado = binding.EmailUsER
         val bteditarPerfil = binding.editarPerfil
 
-        recuperarFotoUser(perfilfoto, this)
+
+       // recuperarFotoUser(perfilfoto, this)
+
+
+
+        bteditarPerfil.setOnClickListener {
+            FirebaseAuth.getInstance().signOut()
+
+          val intent = Intent(this, Form_login::class.java)
+            startActivity(intent)
+        }
 
     }
+
+
+
+
 
 
     override fun onStart() {

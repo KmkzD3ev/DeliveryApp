@@ -19,7 +19,7 @@
             android:layout_width="140dp"
             android:layout_gravity="center"
             android:layout_height="wrap_content"
-            android:background="@drawable/formcaixas1"
+            android:background="@drawable/formcaixas2"
             android:padding="20dp"
             android:text="Pagar" />
 

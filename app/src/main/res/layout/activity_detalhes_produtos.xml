@@ -75,7 +75,7 @@
         android:layout_height="wrap_content"
         android:text="Adicionar ao Carrinho"
         android:textSize="18sp"
-        android:background="@drawable/formcaixas1"
+        android:background="@drawable/formcaixas2"
         android:drawableRight="@drawable/icadd"
         android:textStyle="bold"
         android:padding="15dp"
